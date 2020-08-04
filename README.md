@@ -12,9 +12,9 @@ Stefan Schaal and others<br />
 Ross, Stephane and Bagnell, J. Andrew and Gordon, Geoffrey J<br />
 提出Dagger方法，通过在训练过程中不断与专家交互来覆盖大多数情况。需要的数据量很大，需要覆盖大部分情况。<br />
 Dagger有很多发展：
- * block
- * block
- * 待编辑
+    - block
+    - block
+    - 待编辑
 
 + 2016-End-to-end Driving via Conditional Imitation Learning <br />
 NVIDIA <br />
@@ -22,9 +22,9 @@ NVIDIA <br />
 
 + One-shot系列 <br />
 模仿学习的理想情况是只示范一遍，智能体就可以学会特定任务。<br />
-  * 2017. Duan, Yan, et al. One-shot imitation learning. Advances in neural information processing systems. 
-  * 2017. Chelsea Finn, Tianhe Yu, Tianhao Zhang, Pieter Abbeel, Sergey Levine. One-Shot Visual Imitation Learning via Meta-Learning. 
-  * 2018. Tianhe Yu, Chelsea Finn, Annie Xie, Sudeep Dasari, Tianhao Zhang, Pieter Abbeel, Sergey Levine. One-Shot Imitation from Observing Humans via Domain-Adaptive Meta-Learning. 
+  - 2017. Duan, Yan, et al. One-shot imitation learning. Advances in neural information processing systems. 
+  - 2017. Chelsea Finn, Tianhe Yu, Tianhao Zhang, Pieter Abbeel, Sergey Levine. One-Shot Visual Imitation Learning via Meta-Learning. 
+  - 2018. Tianhe Yu, Chelsea Finn, Annie Xie, Sudeep Dasari, Tianhao Zhang, Pieter Abbeel, Sergey Levine. One-Shot Imitation from Observing Humans via Domain-Adaptive Meta-Learning. 
   * [一篇知乎上的分析](https://zhuanlan.zhihu.com/p/83774235)
 
 
