@@ -12,8 +12,12 @@ Stefan Schaal and others<br />
 Ross, Stephane and Bagnell, J. Andrew and Gordon, Geoffrey J<br />
 提出Dagger方法，通过在训练过程中不断与专家交互来覆盖大多数情况。需要的数据量很大，需要覆盖大部分情况。<br />
 Dagger有很多发展：
-    - block
-    - 待编辑
+    - 2017-Deeply AggreVaTeD: differentiable imitation learning for sequential prediction<br />
+    Wen Sun, Arun Venkatraman, Geoffrey J. Gordon, Byron Boots, and J. Andrew Bagnell.
+    - 2017-Query-efficient imitation learning for end-to-end simu- lated driving<br />
+    Zhang, Jiakai, and Kyunghyun Cho.
+    - 2018-A Fast Integrated Planning and Control Framework for Autonomous Driving via Imitation Learning<br />
+    Sun, Liting, Cheng Peng, Wei Zhan, and Masayoshi Tomizuka.
 
 + 2016-End-to-end Driving via Conditional Imitation Learning <br />
 NVIDIA <br />
