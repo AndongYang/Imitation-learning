@@ -75,8 +75,8 @@ Yunzhu Li, Jiaming Song and Stefano Ermon.<br />
     - 2018-ACGAIL: Imitation Learning About Multiple Intentions with Auxiliary Classifier GANs<br />
     Lin J , Zhang Z . 
     
-**改进数据利用率不够高的问题**
-可以结合RL方法来提高数据利用率
+**改进数据利用率不够高的问题**<br />
+可以结合RL方法来提高数据利用率。
 + 2016-Model-based Adversarial Imitation Learning<br />
 Baram N, Anschel O, Mannor S.
 
