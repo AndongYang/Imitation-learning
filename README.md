@@ -1,14 +1,14 @@
 # Imitation Learning
 
 ## Behavioral cloning
-### 1991-Efficient training of artificial neural networks for autonomous navigation
++ 1991-Efficient training of artificial neural networks for autonomous navigation
 D. A. Pomerleau
 
-### 1997-Learning From Demonstration
++ 1997-Learning From Demonstration
 Stefan Schaal and others
 根据专家示例进行预训练，可以加速强化学习训练过程。局限于简单任务，倒立摆，立杆。
 
-### 2011-A reduction of imitation learning and structured prediction to no-regret on- line learning
++ 2011-A reduction of imitation learning and structured prediction to no-regret on- line learning
 Ross, Stephane and Bagnell, J. Andrew and Gordon, Geoffrey J
 提出Dagger方法，通过在训练过程中不断与专家交互来覆盖大多数情况。需要的数据量很大，需要覆盖大部分情况。
 
