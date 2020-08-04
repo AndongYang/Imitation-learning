@@ -1,7 +1,7 @@
 # Imitation Learning
 
 ## Behavioral cloning
-+ 1991-Efficient training of artificial neural networks for autonomous navigation
++ 1991-Efficient training of artificial neural networks for autonomous navigation <br />
 D. A. Pomerleau
 
 + 1997-Learning From Demonstration
