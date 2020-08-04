@@ -27,7 +27,7 @@ NVIDIA <br />
 将行为克隆应用于自动驾驶，主要思想是在车辆两侧增加摄像头并提供对应的专家动作（返回规划路径的转向角度）。这样当车辆偏移时，可以恢复，没有考虑与其他车辆的交互问题。
 
 + One-shot系列 <br />
-模仿学习的理想情况是只示范一遍，智能体就可以学会特定任务。<br />
+模仿学习的理想情况是只示范一遍，智能体就可以学会特定任务，主要用于机械臂。<br />
     - 2017-Duan, Yan, et al. One-shot imitation learning. Advances in neural information processing systems. 
     - 2017-Chelsea Finn, Tianhe Yu, Tianhao Zhang, Pieter Abbeel, Sergey Levine. One-Shot Visual Imitation Learning via Meta-Learning. 
     - 2018-Tianhe Yu, Chelsea Finn, Annie Xie, Sudeep Dasari, Tianhao Zhang, Pieter Abbeel, Sergey Levine. One-Shot Imitation from Observing Humans via Domain-Adaptive Meta-Learning. 
