@@ -43,12 +43,12 @@ Abbeel P, Ng A Y. <br />
 Klein E, Geist M, Piot B, et al. <br />
 将原本的最大边际问题转换为分类问题。
 
-### 针对歧义问题
+**改进歧义问题**
 + 2008-Maximum entropy inverse reinforcement learning<br />
 Ziebart B D, Mass A, Bagnell J A, et al.<br />
 针对歧义的问题：之前使用的都是最大化边际的方法，来找最优的回报函数，会有歧义的问题，使用概率方法，可以去除歧义。这里是新的理论。但是依旧没有解决需求算力较大的问题。
 
-### 针对大规模问题上人为设定基底无法有效表示回报函数的问题。
+**改进大规模问题上人为设定基底无法有效表示回报函数的问题**
 + 2016-Neural inverse reinforcement learning in autonomous navigation. Robotics & Automation Systems <br />
 Chen X, Kamel A E. <br />
 在大规模问题上，人为设定基底能力不足，神经网络在模仿函数方面效果很好，用神经网络代替基底，会获得更好的效果。但是需要的算力依旧很大。
@@ -61,7 +61,7 @@ Chen X, Kamel A E. <br />
 Jonathan Ho and Stefano Ermon<br />
 首次提出GAIL方法，可以直接学习策略，不用类似IRL需要先寻找回报函数。对数据的需求也比行为克隆要小。GAIL提高了模仿学习的能力，使其可以用于较大规模的情况，例如开放道路自动驾驶，推荐系统等。但是有三个问题：一是给定的专家示例不一定是基于同一个策略；二是需要不断尝试，对数据的利用率很低；三是没有考虑多智能体的情况。
 
-### 针对专家示例不一定是基于同一个策略的问题
+**改进专家示例不一定是基于同一个策略的问题**
 + 如果训练数据有不同策略的标签，类似于监督学习
     - 2017-InfoGAIL: Interpretable Imitation Learning from Visual Demonstrations<br />
 Yunzhu Li, Jiaming Song and Stefano Ermon.<br />
@@ -71,10 +71,10 @@ Yunzhu Li, Jiaming Song and Stefano Ermon.<br />
     
 + 如果训练数据没有不同策略的标签，类似于无监督学习
 
-### 针对数据利用率不够高的问题
+**改进数据利用率不够高的问题**
 可以结合RL方法来提高数据利用率
 
 
 
-### 针对多智能体情况的问题
+**改进多智能体情况的问题**
 
