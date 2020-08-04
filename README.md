@@ -55,7 +55,7 @@ Chen X, Kamel A E. <br />
 
 
 ## 3. Generative Adversarial Imitation Learning
-模仿学习对数据需求量大，泛化能力不强，且有累积误差的问题。逆强化学习可以解决累积误差问题，增强泛化能力，需要的数据量也不那么大，但是对算力要求较高，且智能体的策略是基于预测出的回报函数习得的，并不是直接学习的策略。
+行为克隆对数据需求量大，泛化能力不强，且有累积误差的问题。逆强化学习可以解决累积误差问题，增强泛化能力，需要的数据量也不那么大，但是对算力要求较高，且智能体的策略是基于预测出的回报函数习得的，并不是直接学习的策略。生成对抗模仿学习可以缓解上述问题。
 
 + 2016-Generative Adversarial Imitation Learning<br />
 Jonathan Ho and Stefano Ermon<br />
@@ -65,16 +65,30 @@ Jonathan Ho and Stefano Ermon<br />
 + 如果训练数据有不同策略的标签，类似于监督学习
     - 2017-InfoGAIL: Interpretable Imitation Learning from Visual Demonstrations<br />
 Yunzhu Li, Jiaming Song and Stefano Ermon.<br />
-在原始GAIL中加入互信息，使得不同策略会对于不用的潜变量。
     - 2017-Robust imitation of diverse behaviors<br />
-    Wang Z, Merel J, Reed S E, et al.
+    Wang Z, Merel J, Reed S E, et al.<br />
+    
     
 + 如果训练数据没有不同策略的标签，类似于无监督学习
-
+    - 2017-Learning human behaviors from motion capture by adversarial imitation<br />
+    Merel J , Tassa Y , Tb D , et al.<br />
+    - 2018-ACGAIL: Imitation Learning About Multiple Intentions with Auxiliary Classifier GANs<br />
+    Lin J , Zhang Z . 
+    
 **改进数据利用率不够高的问题**
 可以结合RL方法来提高数据利用率
++ 2016-Model-based Adversarial Imitation Learning<br />
+Baram N, Anschel O, Mannor S.
 
++ 2018-Sample-Efficient Imitation Learning via Generative Adversarial Nets<br />
+Lionel Blondé, Kalousis A.
 
++ 2018-A Bayesian approach to generative adversarial imitation learning<br />
+Wonseok Jeon, Seokin  Seo profile imageSeokin Seo, Keeeung Kim.
 
 **改进多智能体情况的问题**
++ 2018-Multi-Agent Generative Adversarial Imitation Learning<br />
+Song J , Ren H , Sadigh D , et al.
 
++ 2018-Multi-Agent Imitation Learning for Driving Simulation<br />
+Bhattacharyya R P , Phillips D J , Wulfe B , et al.
