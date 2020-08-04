@@ -56,7 +56,24 @@ Ziebart B D, Mass A, Bagnell J A, et al.<br />
 ## Generative Adversarial Imitation Learning
 模仿学习对数据需求量大，泛化能力不强，且有累积误差的问题。逆强化学习可以解决累积误差问题，增强泛化能力，需要的数据量也不那么大，但是对算力要求较高，且智能体的策略是基于预测出的回报函数习得的，并不是直接学习的策略。
 
-+ 2016-Generative Adversarial Imitation Learning
-Jonathan Ho and Stefano Ermon
++ 2016-Generative Adversarial Imitation Learning<br />
+Jonathan Ho and Stefano Ermon<br />
+首次提出GAIL方法，可以直接学习策略，不用类似IRL需要先寻找回报函数。对数据的需求也比行为克隆要小。GAIL提高了模仿学习的能力，使其可以用于较大规模的情况，例如开放道路自动驾驶，推荐系统等。但是有三个问题：一是给定的专家示例不一定是基于同一个策略；二是需要不断尝试，对数据的利用率很低；三是没有考虑多智能体的情况。
 
+### 针对专家示例不一定是基于同一个策略的问题
++ 如果训练数据有不同策略的标签，类似于监督学习
+    - 2017-InfoGAIL: Interpretable Imitation Learning from Visual Demonstrations<br />
+Yunzhu Li, Jiaming Song and Stefano Ermon.<br />
+在原始GAIL中加入互信息，使得不同策略会对于不用的潜变量。
+    - 2017-Robust imitation of diverse behaviors<br />
+    Wang Z, Merel J, Reed S E, et al.
+    
++ 如果训练数据没有不同策略的标签，类似于无监督学习
+
+### 针对数据利用率不够高的问题
+可以结合RL方法来提高数据利用率
+
+
+
+### 针对多智能体情况的问题
 
