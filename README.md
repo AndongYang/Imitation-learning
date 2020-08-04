@@ -1,6 +1,6 @@
 # Imitation Learning
 
-## Behavioral cloning
+## 1. Behavioral cloning
 + 1991-Efficient training of artificial neural networks for autonomous navigation <br />
 D. A. Pomerleau
 
@@ -28,7 +28,7 @@ NVIDIA <br />
 
 
 
-## Inverse Reinforcement Learning
+## 2. Inverse Reinforcement Learning
 当完成复杂的任务时，强化学习的回报函数很难指定。也就是多任务学习和回报函数难以量化问题。逆强化学习通过专家示例学习专家的回报函数，再根据回报函数使用强化学习方法获得策略。不需要认为指定回报函数，在一定程度上提高了泛化能力。
 
 + 2000-Algorithms for Inverse Reinforcement Learning <br />
@@ -54,7 +54,7 @@ Chen X, Kamel A E. <br />
 在大规模问题上，人为设定基底能力不足，神经网络在模仿函数方面效果很好，用神经网络代替基底，会获得更好的效果。但是需要的算力依旧很大。
 
 
-## Generative Adversarial Imitation Learning
+## 3. Generative Adversarial Imitation Learning
 模仿学习对数据需求量大，泛化能力不强，且有累积误差的问题。逆强化学习可以解决累积误差问题，增强泛化能力，需要的数据量也不那么大，但是对算力要求较高，且智能体的策略是基于预测出的回报函数习得的，并不是直接学习的策略。
 
 + 2016-Generative Adversarial Imitation Learning<br />
