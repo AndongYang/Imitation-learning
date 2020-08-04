@@ -29,7 +29,7 @@ NVIDIA <br />
 
 
 ## Inverse Reinforcement Learning
-当完成复杂的任务时，强化学习的回报函数很难指定。也就是多任务学习和回报函数难以量化问题。
+当完成复杂的任务时，强化学习的回报函数很难指定。也就是多任务学习和回报函数难以量化问题。逆强化学习通过专家示例学习专家的回报函数，再根据回报函数使用强化学习方法获得策略。不需要认为指定回报函数，在一定程度上提高了泛化能力。
 
 + 2000-Algorithms for Inverse Reinforcement Learning <br />
 Andrew Y. Ng and Stuart Russell <br />
@@ -38,19 +38,20 @@ Andrew Y. Ng and Stuart Russell <br />
 
 + 2004-Apprenticeship learning via inverse reinforcement learning <br />
 Abbeel P, Ng A Y. <br />
-解决歧义问题？
 
 + 2012-Inverse reinforcement learning through structured classification <br />
 Klein E, Geist M, Piot B, et al. <br />
 将原本的最大边际问题转换为分类问题。
 
-+ 2016-Neural inverse reinforcement learning in autonomous navigation. Robotics & Automation Systems <br />
-Chen X, Kamel A E. <br />
-在大规模问题上，人为设定基底能力不足，神经网络在模仿函数方面效果很好，用神经网络代替基底，会获得更好的效果。但是需要的算力依旧很大。
-
+### 针对歧义问题
 + 2008-Maximum entropy inverse reinforcement learning<br />
 Ziebart B D, Mass A, Bagnell J A, et al.<br />
 针对歧义的问题：之前使用的都是最大化边际的方法，来找最优的回报函数，会有歧义的问题，使用概率方法，可以去除歧义。这里是新的理论。但是依旧没有解决需求算力较大的问题。
+
+### 针对大规模问题上人为设定基底无法有效表示回报函数的问题。
++ 2016-Neural inverse reinforcement learning in autonomous navigation. Robotics & Automation Systems <br />
+Chen X, Kamel A E. <br />
+在大规模问题上，人为设定基底能力不足，神经网络在模仿函数方面效果很好，用神经网络代替基底，会获得更好的效果。但是需要的算力依旧很大。
 
 
 ## Generative Adversarial Imitation Learning
