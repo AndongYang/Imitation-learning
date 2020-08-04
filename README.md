@@ -1,12 +1,15 @@
 # Imitation Learning
 
 ## 1. Behavioral cloning
-+ 1991-Efficient training of artificial neural networks for autonomous navigation <br />
++ 1991-Efficient training of artificial neural networks for autonomous navigation<br />
 D. A. Pomerleau
 
 + 1997-Learning From Demonstration<br />
 Stefan Schaal and others<br />
 根据专家示例进行预训练，可以加速强化学习训练过程。局限于简单任务，倒立摆，立杆。
+
++ 2008-High performance outdoor navigation from overhead data using imitation learning<br />
+Silver, J. A. Bagnell, and A. Stentz.
 
 + 2011-A reduction of imitation learning and structured prediction to no-regret on- line learning<br />
 Ross, Stephane and Bagnell, J. Andrew and Gordon, Geoffrey J<br />
