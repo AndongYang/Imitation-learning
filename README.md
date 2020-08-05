@@ -15,11 +15,11 @@ Silver, J. A. Bagnell, and A. Stentz.
 Ross, Stephane and Bagnell, J. Andrew and Gordon, Geoffrey J<br />
 提出Dagger方法，通过在训练过程中不断与专家交互来覆盖大多数情况。需要的数据量很大，需要覆盖大部分情况。<br />
 Dagger有很多发展：
-    - 2017-Deeply AggreVaTeD: differentiable imitation learning for sequential prediction<br />
+    - [2017-Deeply AggreVaTeD: differentiable imitation learning for sequential prediction](https://arxiv.org/abs/1703.01030)<br />
     Wen Sun, Arun Venkatraman, Geoffrey J. Gordon, Byron Boots, and J. Andrew Bagnell.
-    - 2017-Query-efficient imitation learning for end-to-end simu- lated driving<br />
+    - [2017-Query-efficient imitation learning for end-to-end simu- lated driving](https://arxiv.org/abs/1605.06450)<br />
     Zhang, Jiakai, and Kyunghyun Cho.
-    - 2018-A Fast Integrated Planning and Control Framework for Autonomous Driving via Imitation Learning<br />
+    - [2018-A Fast Integrated Planning and Control Framework for Autonomous Driving via Imitation Learning](https://arxiv.org/pdf/1707.02515.pdf)<br />
     Sun, Liting, Cheng Peng, Wei Zhan, and Masayoshi Tomizuka.
 
 + [2016-End-to-end Driving via Conditional Imitation Learning](http://vladlen.info/papers/conditional-imitation.pdf) <br />
@@ -36,7 +36,7 @@ NVIDIA <br />
 
 
 ## 2. Inverse Reinforcement Learning
-当完成复杂的任务时，强化学习的回报函数很难指定。也就是多任务学习和回报函数难以量化问题。逆强化学习通过专家示例学习专家的回报函数，再根据回报函数使用强化学习方法获得策略。不需要认为指定回报函数，在一定程度上提高了泛化能力。
+当完成复杂的任务时，强化学习的回报函数很难指定。也就是多任务学习和回报函数难以量化问题。逆强化学习通过专家示例学习专家的回报函数，再根据回报函数使用强化学习方法获得策略。不需要人为指定回报函数，在一定程度上提高了泛化能力。
 
 + [2000-Algorithms for Inverse Reinforcement Learning](https://people.eecs.berkeley.edu/~russell/papers/ml00-irl.pdf) <br />
 Andrew Y. Ng and Stuart Russell <br />
