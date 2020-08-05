@@ -2,7 +2,7 @@
 
 ## 1. Behavioral cloning
 + [1991-Efficient training of artificial neural networks for autonomous navigation](https://www.ri.cmu.edu/pub_files/pub3/pomerleau_dean_1991_1/pomerleau_dean_1991_1.pdf)<br />
-D. A. Pomerleau
+D. A. Pomerleau<br />
 首次将模仿学习用于自动驾驶，网络为两层网络，输入为图像，输出为从左到右的30等分转向角。环境为cmu校园里的单车道道路，没有与其他车辆的交互。实验上看有一定的泛化能力，在不同天气和差异不大的道路环境上也可以行驶。
 
 + [1997-Learning From Demonstration](http://www8.cs.umu.se/research/ifor/dl/SEQUENCE%20LEARINIG/learning-from-demonstration.pdf)<br />
@@ -45,7 +45,7 @@ Andrew Y. Ng and Stuart Russell <br />
 Abbeel P, Ng A Y. <br />
 
 + [2008-High performance outdoor navigation from overhead data using imitation learning](https://www.ri.cmu.edu/pub_files/pub4/silver_david_2008_1/silver_david_2008_1.pdf)<br />
-Silver, J. A. Bagnell, and A. Stentz.
+Silver, J. A. Bagnell, and A. Stentz.<br />
 逆强化学习的一个实际应用。主要关注户外环境下的路径规划问题，以往的方法需要人为设定回报函数，由于户外环境复杂，需要不断调整回报函数直到结果符合要求。而使用逆强化学习可以自动学习回报函数。
 
 + [2012-Inverse reinforcement learning through structured classification](http://papers.nips.cc/paper/4551-inverse-reinforcement-learning-through-structured-classification.pdf) <br />
