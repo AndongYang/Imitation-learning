@@ -70,32 +70,32 @@ Jonathan Ho and Stefano Ermon<br />
 
 **改进专家示例不一定是基于同一个策略的问题**
 + 如果训练数据有不同策略的标签，类似于监督学习
-    - 2017-InfoGAIL: Interpretable Imitation Learning from Visual Demonstrations<br />
+    - [2017-InfoGAIL: Interpretable Imitation Learning from Visual Demonstrations](https://arxiv.org/abs/1703.08840)<br />
 Yunzhu Li, Jiaming Song and Stefano Ermon.<br />
-    - 2017-Robust imitation of diverse behaviors<br />
+    - [2017-Robust imitation of diverse behaviors](https://deepmind.com/research/publications/robust-imitation-diverse-behaviors)<br />
     Wang Z, Merel J, Reed S E, et al.<br />
     
     
 + 如果训练数据没有不同策略的标签，类似于无监督学习
-    - 2017-Learning human behaviors from motion capture by adversarial imitation<br />
+    - [2017-Learning human behaviors from motion capture by adversarial imitation](https://deepmind.com/research/publications/learning-human-behaviors-motion-capture-adversarial-imitation)<br />
     Merel J , Tassa Y , Tb D , et al.<br />
-    - 2018-ACGAIL: Imitation Learning About Multiple Intentions with Auxiliary Classifier GANs<br />
+    - [2018-ACGAIL: Imitation Learning About Multiple Intentions with Auxiliary Classifier GANs](https://link.springer.com/chapter/10.1007/978-3-319-97304-3_25)<br />
     Lin J , Zhang Z . 
     
 **改进数据利用率不够高的问题**<br />
 可以结合RL方法来提高数据利用率。
-+ 2016-Model-based Adversarial Imitation Learning<br />
++ [2016-Model-based Adversarial Imitation Learning](https://arxiv.org/pdf/1612.02179.pdf)<br />
 Baram N, Anschel O, Mannor S.
 
-+ 2018-Sample-Efficient Imitation Learning via Generative Adversarial Nets<br />
++ [2018-Sample-Efficient Imitation Learning via Generative Adversarial Nets](https://deepai.org/publication/sample-efficient-imitation-learning-via-generative-adversarial-nets)<br />
 Lionel Blondé, Kalousis A.
 
-+ 2018-A Bayesian approach to generative adversarial imitation learning<br />
++ [2018-A Bayesian approach to generative adversarial imitation learning](https://pdfs.semanticscholar.org/a173/438f98c2285e7986cd778138c7993f02abe9.pdf?_ga=2.52930145.834071317.1596590790-214497470.1581581535)<br />
 Wonseok Jeon, Seokin  Seo profile imageSeokin Seo, Keeeung Kim.
 
 **改进多智能体情况的问题**
-+ 2018-Multi-Agent Generative Adversarial Imitation Learning<br />
++ [2018-Multi-Agent Generative Adversarial Imitation Learning](https://arxiv.org/abs/1807.09936)<br />
 Song J , Ren H , Sadigh D , et al.
 
-+ 2018-Multi-Agent Imitation Learning for Driving Simulation<br />
++ [2018-Multi-Agent Imitation Learning for Driving Simulation](https://arxiv.org/pdf/1803.01044.pdf)<br />
 Bhattacharyya R P , Phillips D J , Wulfe B , et al.
