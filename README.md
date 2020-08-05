@@ -55,13 +55,17 @@ Klein E, Geist M, Piot B, et al. <br />
 **改进歧义问题**
 + [2008-Maximum entropy inverse reinforcement learning](https://www.aaai.org/Papers/AAAI/2008/AAAI08-227.pdf)<br />
 Ziebart B D, Mass A, Bagnell J A, et al.<br />
-针对歧义的问题：之前使用的都是最大化边际的方法，来找最优的回报函数，会有歧义的问题，使用概率方法，可以去除歧义。这里是新的理论。但是依旧没有解决需求算力较大的问题。
+针对歧义的问题：之前使用的都是最大化边际的方法，来找最优的回报函数，会有歧义的问题，使用概率方法，可以去除歧义。这里是新的理论。但是依旧没有解决需求算力较大的问题，同时再复杂问题上认为设定的基底不一定能覆盖回报函数。
 
 **改进大规模问题上人为设定基底无法有效表示回报函数的问题**
 + [2016-Neural inverse reinforcement learning in autonomous navigation](https://www.sciencedirect.com/science/article/abs/pii/S0921889015301652?via%3Dihub) <br />
 Chen X, Kamel A E. <br />
-在大规模问题上，人为设定基底能力不足，神经网络在模仿函数方面效果很好，用神经网络代替基底，会获得更好的效果。但是需要的算力依旧很大。
+在大规模问题上，人为设定基底能力不足，神经网络在模仿函数方面效果很好，用神经网络代替基底，会获得更好的效果。但是再正向强化学习部分依旧需要很大的算力，且会有正向强化学习原本就有的一些困难。
 
+**改进正向强化学习部分**
++ [2016-Guided cost learning: deep inverse optimal control via policy optimization](https://arxiv.org/pdf/1603.00448.pdf)<br />
+Finn C, Levine S, Abbeel P.
+使用采样来替换正向的强化学习，缓解强化学习对算力的需求。
 
 ## 3. Generative Adversarial Imitation Learning
 行为克隆对数据需求量大，泛化能力不强，且有累积误差的问题。逆强化学习可以解决累积误差问题，增强泛化能力，需要的数据量也不那么大，但是对算力要求较高，且智能体的策略是基于预测出的回报函数习得的，并不是直接学习的策略。生成对抗模仿学习可以缓解上述问题。
