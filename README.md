@@ -93,6 +93,9 @@ Yunzhu Li, Jiaming Song and Stefano Ermon.<br />
 + [2016-Model-based Adversarial Imitation Learning](https://arxiv.org/pdf/1612.02179.pdf)<br />
 Baram N, Anschel O, Mannor S.
 
++ [2017-End-to-End Differentiable Adversarial Imitation Learning](http://proceedings.mlr.press/v70/baram17a/baram17a.pdf)<br />
+Nir Baram • Oron Anschel • Itai Caspi • Shie Mannor
+
 + [2018-Sample-Efficient Imitation Learning via Generative Adversarial Nets](https://deepai.org/publication/sample-efficient-imitation-learning-via-generative-adversarial-nets)<br />
 Lionel Blondé, Kalousis A.
 
