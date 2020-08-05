@@ -1,7 +1,7 @@
 # Imitation Learning
 
 ## 1. Behavioral cloning
-+ 1991-Efficient training of artificial neural networks for autonomous navigation<br />
++ [1991-Efficient training of artificial neural networks for autonomous navigation](https://www.ri.cmu.edu/pub_files/pub3/pomerleau_dean_1991_1/pomerleau_dean_1991_1.pdf)<br />
 D. A. Pomerleau
 
 + 1997-Learning From Demonstration<br />
