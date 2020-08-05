@@ -50,12 +50,12 @@ Silver, J. A. Bagnell, and A. Stentz.<br />
 
 + [2012-Inverse reinforcement learning through structured classification](http://papers.nips.cc/paper/4551-inverse-reinforcement-learning-through-structured-classification.pdf) <br />
 Klein E, Geist M, Piot B, et al. <br />
-将原本的最大边际问题转换为分类问题。
+将原本的最大边际问题转换为分类问题，加速求解回报函数的过程。
 
 **改进歧义问题**
 + [2008-Maximum entropy inverse reinforcement learning](https://www.aaai.org/Papers/AAAI/2008/AAAI08-227.pdf)<br />
 Ziebart B D, Mass A, Bagnell J A, et al.<br />
-针对歧义的问题：之前使用的都是最大化边际的方法，来找最优的回报函数，会有歧义的问题，使用概率方法，可以去除歧义。这里是新的理论。但是依旧没有解决需求算力较大的问题，同时再复杂问题上认为设定的基底不一定能覆盖回报函数。
+针对歧义的问题：之前使用的都是最大化边际的方法，来找最优的回报函数，会有歧义的问题，使用概率方法，可以去除歧义。这里是新的理论。但是依旧没有解决需求算力较大的问题，同时再复杂问题上人为设定的基底不一定能覆盖回报函数。
 
 **改进大规模问题上人为设定基底无法有效表示回报函数的问题**
 + [2016-Neural inverse reinforcement learning in autonomous navigation](https://www.sciencedirect.com/science/article/abs/pii/S0921889015301652?via%3Dihub) <br />
@@ -64,7 +64,7 @@ Chen X, Kamel A E. <br />
 
 **改进正向强化学习部分**
 + [2016-Guided cost learning: deep inverse optimal control via policy optimization](https://arxiv.org/pdf/1603.00448.pdf)<br />
-Finn C, Levine S, Abbeel P.
+Finn C, Levine S, Abbeel P.<br />
 使用采样来替换正向的强化学习，缓解强化学习对算力的需求。
 
 ## 3. Generative Adversarial Imitation Learning
