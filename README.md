@@ -7,7 +7,7 @@ D. A. Pomerleau<br />
 
 + [1997-Learning From Demonstration](http://www8.cs.umu.se/research/ifor/dl/SEQUENCE%20LEARINIG/learning-from-demonstration.pdf)<br />
 Stefan Schaal and others<br />
-根据专家示例进行预训练，可以加速强化学习训练过程。局限于简单任务，倒立摆，立杆。
+根据专家示例对v-function/q-function和策略网络进行预训练再进行强化学习过程，比从随机初始网络开始进行强化学习训练要快。局限于简单任务，倒立摆，立杆。
 
 + [2011-A reduction of imitation learning and structured prediction to no-regret on- line learning](https://www.cs.cmu.edu/~sross1/publications/Ross-AIStats11-NoRegret.pdf)<br />
 Ross, Stephane and Bagnell, J. Andrew and Gordon, Geoffrey J<br />
