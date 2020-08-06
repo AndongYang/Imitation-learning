@@ -20,7 +20,7 @@ Dagger有很多发展：
     - [2018-A Fast Integrated Planning and Control Framework for Autonomous Driving via Imitation Learning](https://arxiv.org/pdf/1707.02515.pdf)<br />
     Sun, Liting, Cheng Peng, Wei Zhan, and Masayoshi Tomizuka.
 
-+ [2016-End-to-end Driving via Conditional Imitation Learning](http://vladlen.info/papers/conditional-imitation.pdf) <br />
++ [2016-End to end learning for self-driving cars](https://developer.nvidia.com/blog/deep-learning-self-driving-cars/) <br />
 NVIDIA <br />
 将行为克隆应用于自动驾驶，可在真实道路行驶。主要思想是在车辆两侧增加摄像头并提供对应的专家动作（返回规划路径的转向角度）。这样当车辆偏移时，可以恢复，没有考虑与其他车辆的交互问题。
 
