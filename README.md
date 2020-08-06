@@ -76,14 +76,14 @@ Jonathan Ho and Stefano Ermon<br />
 首次提出GAIL方法，可以直接学习策略，不用类似IRL需要先寻找回报函数。对数据的需求也比行为克隆要小。GAIL提高了模仿学习的能力，使其可以用于较大规模的情况，例如开放道路自动驾驶，推荐系统等。但是有三个问题：一是给定的专家示例不一定是基于同一个策略；二是需要不断尝试，对数据的利用率很低；三是没有考虑多智能体的情况。
 
 **改进专家示例不一定是基于同一个策略的问题**
-+ 如果训练数据有不同策略的标签，类似于监督学习
++ 如果训练数据没有不同策略的标签，类似于无监督学习
     - [2017-InfoGAIL: Interpretable Imitation Learning from Visual Demonstrations](https://arxiv.org/abs/1703.08840)<br />
 Yunzhu Li, Jiaming Song and Stefano Ermon.<br />
     - [2017-Robust imitation of diverse behaviors](https://deepmind.com/research/publications/robust-imitation-diverse-behaviors)<br />
     Wang Z, Merel J, Reed S E, et al.<br />
     
     
-+ 如果训练数据没有不同策略的标签，类似于无监督学习
++ 如果训练数据有不同策略的标签，类似于监督学习
     - [2017-Learning human behaviors from motion capture by adversarial imitation](https://deepmind.com/research/publications/learning-human-behaviors-motion-capture-adversarial-imitation)<br />
     Merel J , Tassa Y , Tb D , et al.<br />
     - [2018-ACGAIL: Imitation Learning About Multiple Intentions with Auxiliary Classifier GANs](https://link.springer.com/chapter/10.1007/978-3-319-97304-3_25)<br />
