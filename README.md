@@ -1,6 +1,6 @@
 # Imitation Learning
 
-[概览](https://github.com/andongyang/Imitation-learning/blob/master/papers-images/Imitation%20learning.png)
+![概览](https://github.com/andongyang/Imitation-learning/blob/master/papers-images/Imitation%20learning.png)
 
 ## 1. Behavioral cloning
 + [1991-Efficient training of artificial neural networks for autonomous navigation](https://www.ri.cmu.edu/pub_files/pub3/pomerleau_dean_1991_1/pomerleau_dean_1991_1.pdf)<br />
