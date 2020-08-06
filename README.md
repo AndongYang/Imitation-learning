@@ -29,6 +29,7 @@ NVIDIA <br />
     - 2017-Duan, Yan, et al. One-shot imitation learning. Advances in neural information processing systems. 
     - 2017-Chelsea Finn, Tianhe Yu, Tianhao Zhang, Pieter Abbeel, Sergey Levine. One-Shot Visual Imitation Learning via Meta-Learning. 
     - 2018-Tianhe Yu, Chelsea Finn, Annie Xie, Sudeep Dasari, Tianhao Zhang, Pieter Abbeel, Sergey Levine. One-Shot Imitation from Observing Humans via Domain-Adaptive Meta-Learning. 
+    - 2017-OpenAI-Third-Person Imitation Learning.
   * [一篇知乎上的分析](https://zhuanlan.zhihu.com/p/83774235)
 
 
